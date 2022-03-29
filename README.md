@@ -30,32 +30,15 @@ Use Tiktok with an alternative frontend, inspired by Nitter.
 
 **Shipped version:** 2.2.0.0~ynh1
 
-**Demo:** https://demo.example.com
+**Demo:** https://proxitok.herokuapp.com/
 
 ## Screenshots
 
 ![](./doc/screenshots/screenshot.png)
 
-## Disclaimers / important information
-
-* Any known limitations, constrains or stuff not working, such as (but not limited to):
-    * requiring a full dedicated domain ?
-    * architectures not supported ?
-    * not-working single-sign on or LDAP integration ?
-    * the app requires an important amount of RAM / disk / .. to install or to work properly
-    * etc...
-
-* Other infos that people should be aware of, such as:
-    * any specific step to perform after installing (such as manually finishing the install, specific admin credentials, ...)
-    * how to configure / administrate the application if it ain't obvious
-    * upgrade process / specificities / things to be aware of ?
-    * security considerations ?
-
 ## Documentation and resources
 
-* Official app website: proxitok.herokuapp.com
-* Official user documentation: https://yunohost.org/apps
-* Official admin documentation: https://yunohost.org/packaging_apps
+* Official app website: https://proxitok.herokuapp.com
 * Upstream app code repository: https://github.com/pablouser1/ProxiTok
 * YunoHost documentation for this app: https://yunohost.org/app_proxitok
 * Report a bug: https://github.com/YunoHost-Apps/proxitok_ynh/issues
