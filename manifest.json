@@ -12,8 +12,6 @@
         "license": "AGPL-3.0",
         "website": "https://proxitok.herokuapp.com",
         "demo": "https://proxitok.herokuapp.com/",
-        "admindoc": "https://yunohost.org/packaging_apps",
-        "userdoc": "https://yunohost.org/apps",
         "code": "https://github.com/pablouser1/ProxiTok"
     },
     "license": "AGPL-3.0",
