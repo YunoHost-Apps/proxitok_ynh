@@ -1,0 +1,7 @@
+SOURCE_URL=https://github.com/pablouser1/ProxiTok/archive/refs/tags/v2.2.0.0.tar.gz
+SOURCE_SUM=47c91e2d25176b4abf746a3e92ebaa0af76702d678e67712b49870ff85bf89e3
+SOURCE_SUM_PRG=sha256sum
+SOURCE_FORMAT=tar.gz
+SOURCE_IN_SUBDIR=true
+SOURCE_FILENAME=
+SOURCE_EXTRACT=true

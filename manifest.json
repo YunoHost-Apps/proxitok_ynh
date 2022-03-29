@@ -1,0 +1,45 @@
+{
+    "name": "ProxiTok",
+    "id": "proxitok",
+    "packaging_format": 1,
+    "description": {
+        "en": "An alternative frontend for TikTok",
+        "fr": "An alternative frontend for TikTok"
+    },
+    "version": "2.2.0.0~ynh1",
+    "url": "proxitok.herokuapp.com",
+    "upstream": {
+        "license": "AGPL-3.0",
+        "website": "proxitok.herokuapp.com",
+        "demo": "https://demo.example.com",
+        "admindoc": "https://yunohost.org/packaging_apps",
+        "userdoc": "https://yunohost.org/apps",
+        "code": "https://github.com/pablouser1/ProxiTok"
+    },
+    "license": "AGPL-3.0",
+    "maintainer": {
+        "name": "",
+        "email": ""
+    },
+    "requirements": {
+        "yunohost": ">= 4.3.0"
+    },
+    "multi_instance": true,
+    "services": [
+        "nginx",
+        "php7.3-fpm"
+    ],
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "type": "domain"
+            },
+            {
+                "name": "is_public",
+                "type": "boolean",
+                "default": true
+            }
+        ]
+    }
+}
