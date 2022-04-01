@@ -57,7 +57,7 @@ then
 	ynh_script_progression --message="Upgrading source files..." --weight=1
 
 	# Download, check integrity, uncompress and patch the source from app.src
-	ynh_setup_source --dest_dir="$final_path" --keep="$final_path/.env"
+	ynh_setup_source --dest_dir="$final_path" #--keep="$final_path/.env"
 fi
 
 chmod 750 "$final_path"
@@ -86,6 +86,16 @@ ynh_script_progression --message="Upgrading PHP-FPM configuration..." --weight=1
 
 # Create a dedicated PHP-FPM config
 ynh_add_fpm_config
+
+#=================================================
+# ADD A CONFIGURATION
+#=================================================
+ynh_script_progression --message="Adding a configuration file..." --weight=1
+
+ynh_add_config --template="../conf/.env" --destination="$final_path/.env"
+
+chmod 400 "$final_path/.env"
+chown $app:$app "$final_path/.env"
 
 #=================================================
 # INSTALL PROXITOK WITH COMPOSER
