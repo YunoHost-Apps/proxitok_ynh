@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # ProxiTok for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/proxitok.svg)](https://dash.yunohost.org/appci/app/proxitok) ![](https://ci-apps.yunohost.org/ci/badges/proxitok.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/proxitok.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/proxitok.svg)](https://dash.yunohost.org/appci/app/proxitok) ![Working status](https://ci-apps.yunohost.org/ci/badges/proxitok.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/proxitok.maintain.svg)  
 [![Install ProxiTok with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=proxitok)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -28,30 +28,31 @@ Use Tiktok with an alternative frontend, inspired by Nitter.
 - RSS Feed for user, trending and tag (just add /rss to the url)
 
 
-**Shipped version:** 2.2.2.0~ynh1
+**Shipped version:** 2.3.0.0~ynh1
 
 **Demo:** https://proxitok.herokuapp.com/
 
 ## Screenshots
 
-![](./doc/screenshots/screenshot.png)
+![Screenshot of ProxiTok](./doc/screenshots/screenshot.png)
 
 ## Documentation and resources
 
-* Official app website: https://proxitok.herokuapp.com
-* Upstream app code repository: https://github.com/pablouser1/ProxiTok
-* YunoHost documentation for this app: https://yunohost.org/app_proxitok
-* Report a bug: https://github.com/YunoHost-Apps/proxitok_ynh/issues
+* Official app website: <https://proxitok.herokuapp.com>
+* Upstream app code repository: <https://github.com/pablouser1/ProxiTok>
+* YunoHost documentation for this app: <https://yunohost.org/app_proxitok>
+* Report a bug: <https://github.com/YunoHost-Apps/proxitok_ynh/issues>
 
 ## Developer info
 
 Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/proxitok_ynh/tree/testing).
 
 To try the testing branch, please proceed like that.
-```
+
+``` bash
 sudo yunohost app install https://github.com/YunoHost-Apps/proxitok_ynh/tree/testing --debug
 or
 sudo yunohost app upgrade proxitok -u https://github.com/YunoHost-Apps/proxitok_ynh/tree/testing --debug
 ```
 
-**More info regarding app packaging:** https://yunohost.org/packaging_apps
+**More info regarding app packaging:** <https://yunohost.org/packaging_apps>
