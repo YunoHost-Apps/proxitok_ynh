@@ -28,7 +28,7 @@ Use Tiktok with an alternative frontend, inspired by Nitter.
 - RSS Feed for user, trending and tag (just add /rss to the url)
 
 
-**Shipped version:** 2.3.2.0~ynh1
+**Shipped version:** 2.3.2.1~ynh1
 
 **Demo:** https://proxitok.herokuapp.com/
 
