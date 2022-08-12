@@ -6,7 +6,7 @@
         "en": "Alternative frontend for TikTok",
         "fr": "Frontend alternatif à TikTok"
     },
-    "version": "2.3.2.1~ynh1",
+    "version": "2.3.2.2~ynh1",
     "url": "https://proxitok.herokuapp.com",
     "upstream": {
         "license": "AGPL-3.0-only",
