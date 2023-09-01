@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # ProxiTok for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/proxitok.svg)](https://dash.yunohost.org/appci/app/proxitok) ![Working status](https://ci-apps.yunohost.org/ci/badges/proxitok.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/proxitok.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/proxitok.svg)](https://dash.yunohost.org/appci/app/proxitok) ![Working status](https://ci-apps.yunohost.org/ci/badges/proxitok.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/proxitok.maintain.svg)
+
 [![Install ProxiTok with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=proxitok)
 
 *[Lire ce readme en français.](./README_fr.md)*
