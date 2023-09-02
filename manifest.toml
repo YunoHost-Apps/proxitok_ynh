@@ -1,0 +1,49 @@
+packaging_format = 2
+
+id = "proxitok"
+name = "ProxiTok"
+description.en = "Alternative frontend for TikTok"
+description.fr = "Frontend alternatif à TikTok"
+
+version = "2.4.3.6~ynh1"
+
+maintainers = []
+
+[upstream]
+license = "AGPL-3.0-only"
+website = "https://proxitok.herokuapp.com"
+demo = "https://proxitok.herokuapp.com/"
+code = "https://github.com/pablouser1/ProxiTok"
+
+[integration]
+yunohost = ">= 11.2"
+architectures = "all"
+multi_instance = true
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+        [resources.sources.main]
+        url = "https://github.com/pablouser1/ProxiTok/archive/refs/tags/v2.4.3.6.tar.gz"
+        sha256 = "32a149bee2171cb7dfb0eb2222d2cf62e8b49499a3fa61cf9b4fc27c0238ff11"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages = "php8.2-xml php8.2-zip php8.2-redis php8.2-mbstring php8.2-curl"
