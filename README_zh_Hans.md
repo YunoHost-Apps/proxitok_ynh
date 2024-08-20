@@ -5,7 +5,7 @@
 
 # YunoHost 上的 ProxiTok
 
-[![集成程度](https://dash.yunohost.org/integration/proxitok.svg)](https://dash.yunohost.org/appci/app/proxitok) ![工作状态](https://ci-apps.yunohost.org/ci/badges/proxitok.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/proxitok.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/proxitok.svg)](https://ci-apps.yunohost.org/ci/apps/proxitok/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/proxitok.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/proxitok.maintain.svg)
 
 [![使用 YunoHost 安装 ProxiTok](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=proxitok)
 
@@ -29,7 +29,7 @@ Use Tiktok with an alternative frontend, inspired by Nitter.
 - RSS Feed for user, trending and tag (just add /rss to the url)
 
 
-**分发版本：** 2.4.9.2~ynh1
+**分发版本：** 2.5.0.0~ynh1
 
 **演示：** <https://proxitok.herokuapp.com/>
 

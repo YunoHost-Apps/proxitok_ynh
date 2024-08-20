@@ -5,7 +5,7 @@ name = "ProxiTok"
 description.en = "Alternative frontend for TikTok"
 description.fr = "Frontend alternatif à TikTok"
 
-version = "2.4.9.2~ynh1"
+version = "2.5.0.0~ynh1"
 
 maintainers = []
 
@@ -16,7 +16,7 @@ demo = "https://proxitok.herokuapp.com/"
 code = "https://github.com/pablouser1/ProxiTok"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 11.2.27"
 architectures = "all"
 multi_instance = true
 ldap = false
@@ -35,8 +35,8 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/pablouser1/ProxiTok/archive/refs/tags/v2.4.9.2.tar.gz"
-        sha256 = "f39f3d2a720569b4967fb58bf35e08948231deaecc237bf37bae6927b6b69d3c"
+        url = "https://github.com/pablouser1/ProxiTok/archive/refs/tags/v2.5.0.0.tar.gz"
+        sha256 = "c0f23873519ed0cff9eeadeb212a64a672d7a7ab548386ef9b463c75b19fc743"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
@@ -51,4 +51,4 @@ ram.runtime = "50M"
     api.protected = true
 
     [resources.apt]
-    packages = "php8.2-xml php8.2-zip php8.2-redis php8.2-mbstring php8.2-curl"
+    packages = "php8.3-xml, php8.3-zip, php8.3-redis, php8.3-mbstring, php8.3-curl"
