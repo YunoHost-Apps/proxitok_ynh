@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # ProxiTok for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/proxitok.svg)](https://dash.yunohost.org/appci/app/proxitok) ![Working status](https://ci-apps.yunohost.org/ci/badges/proxitok.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/proxitok.maintain.svg)
+[![Integration level](https://dash.yunohost.org/integration/proxitok.svg)](https://ci-apps.yunohost.org/ci/apps/proxitok/) ![Working status](https://ci-apps.yunohost.org/ci/badges/proxitok.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/proxitok.maintain.svg)
 
 [![Install ProxiTok with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=proxitok)
 
@@ -29,7 +29,7 @@ Use Tiktok with an alternative frontend, inspired by Nitter.
 - RSS Feed for user, trending and tag (just add /rss to the url)
 
 
-**Shipped version:** 2.4.9.2~ynh1
+**Shipped version:** 2.5.0.0~ynh1
 
 **Demo:** <https://proxitok.herokuapp.com/>
 
