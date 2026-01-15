@@ -19,8 +19,10 @@ code = "https://github.com/pablouser1/ProxiTok"
 yunohost = ">= 11.2.27"
 architectures = "all"
 multi_instance = true
+
 ldap = false
 sso = false
+
 disk = "50M"
 ram.build = "50M"
 ram.runtime = "50M"
